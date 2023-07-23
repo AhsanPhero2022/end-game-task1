@@ -30,13 +30,16 @@ const Navbar = () => {
                 <a>Item 1</a>
               </li>
               <li>
-                <a>Parent</a>
+                <a>main</a>
                 <ul className="p-2">
                   <li>
                     <a>Submenu 1</a>
                   </li>
                   <li>
-                    <a>Submenu 2</a>
+                    <a>Submenu 1</a>
+                  </li>
+                  <li>
+                    <a>item 233 2</a>
                   </li>
                 </ul>
               </li>
