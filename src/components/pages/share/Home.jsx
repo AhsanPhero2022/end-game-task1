@@ -1,4 +1,7 @@
 import Another from "./Another";
+import CollageCampus from "./CollageCampus";
+import Researched from "./Researched";
+import SportsGround from "./SportsGround";
 
 function Home() {
   const imageUrl =
@@ -20,7 +23,10 @@ function Home() {
         src={imageUrl} alt="" />
       
     </div>
+    <CollageCampus></CollageCampus>
+    <SportsGround></SportsGround>
     <Another></Another>
+    <Researched></Researched>
    </>
   );
 }
